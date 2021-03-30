@@ -79,7 +79,7 @@ plt.xlabel("SNR/bit in dB ------>")
 plt.plot(SNR2,err_p2,label='Theoretical Result') 
 plt.plot(SNR1,err_p1,'o-',label='Simulated Result', color = 'Red')
 plt.legend(ncol=2,frameon='True')
-plt.grid()
+plt.grid("True")
 plt.show()
 
 
